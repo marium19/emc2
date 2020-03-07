@@ -1,0 +1,40 @@
+.container{
+    padding:45px;
+    /* background-color: aqua;   */
+}
+li{
+    display: inline-block;
+    padding-right: 40px;
+}
+.navbar{
+    letter-spacing: 4px;
+    background-color: rgb(61, 57, 57);
+    color:orange;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #d5d5d5 !important;
+  }
+
+.carousel-inner img{
+    width: 100%;
+    max-height: 550px !important;
+}
+
+footer {
+    background-color: #2d2d30;
+    color: #f5f5f5;
+    padding: 5px;
+  }
+
+.navbar-nav li a:hover {
+    color: #fff !important;
+  }
+  
+  /* The active link */
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color:#29292c !important;
+  }
+
+

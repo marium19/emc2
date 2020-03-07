@@ -1,0 +1,31 @@
+.container{
+    padding:45px;
+    /* background-color: aqua;   */
+}
+li{
+    display: inline-block;
+    padding-right: 40px;
+}
+.navbar{
+    letter-spacing: 4px;
+}
+
+
+.carousel-inner img{
+    width: 100%;
+    max-height: 550px;
+    margin: auto;
+}
+
+
+/* sidebar styling */
+
+#sidebar-wrapper{
+    position:fixed;
+    width:150px;
+    height:100%;
+    -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+}
