@@ -6,15 +6,6 @@ li{
     display: inline-block;
     padding-right: 40px;
 }
-.navbar{
-    letter-spacing: 4px;
-    background-color: rgb(61, 57, 57);
-    color:orange;
-}
-
-.navbar li a, .navbar .navbar-brand {
-    color: #d5d5d5 !important;
-  }
 
 .carousel-inner img{
     width: 100%;
@@ -27,6 +18,17 @@ footer {
     padding: 5px;
   }
 
+/* navbar css */
+.navbar{
+    letter-spacing: 4px;
+    background-color: rgb(61, 57, 57);
+    color:orange;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #d5d5d5 !important;
+  }
+
 .navbar-nav li a:hover {
     color: #fff !important;
   }
@@ -37,4 +39,21 @@ footer {
     background-color:#29292c !important;
   }
 
+.open .dropdown-toggle {
+    color: #fff ;
+    background-color: #555 !important;
+  }
+.dropdown-menu li a{
+  color: #000 !important;
+}
 
+/* On hover, the dropdown links will turn red */
+.dropdown-menu li a:hover {
+  background-color: rgb(83, 81, 81) !important;
+}
+
+#myBtn{
+  border:none;
+  background-color: white;
+  color: rgb(93, 93, 241);
+}
