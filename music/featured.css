@@ -1,5 +1,6 @@
 .container{
     padding:45px;
+    padding-top: 90px;
     font-size: medium;
 }
 li{
@@ -61,12 +62,7 @@ footer {
   border-color: transparent;
 }
 
-/*image*/
-  .person{
-  display: inline-block;
-  border: 5px solid;
-  margin: 0 auto;
-  width: 35%;
-  height: 35%;
-    }
-
+.music-article {
+  border: 1px solid black;
+  margin: 4px;
+}

@@ -61,34 +61,33 @@ footer {
 .person {
   display: block;
   border: 5px solid;
-  margin-bottom: 25px;
-  width: 75%;
-  height: 75%;
-  
-  
+  margin: 0 auto;
+  width: 35%;
+  height: 35%;
 }
 
-@media only screen and (min-width: 768px) {
+ /* @media only screen and (min-width: 768px) {
     .person{
-      /* margin-top: 100px; */
+      /* margin-top: 100px; 
       margin-left: 350px;
-      margin-bottom: 25px; 
+      margin-bottom: 25px;  
     }
   }
 
 @media only screen and (max-width: 1200px) {
     .person{
-      /* margin-top: 100px; */
+      /* margin-top: 100px; 
       margin-left: 300px;
       margin-top: 25px;
       margin-bottom: 10px; 
       width:35%;
       height:35%;
     }
-  }
+  } 
+  
   @media only screen and (max-width: 991px) {
     .person{
-      /* margin-top: 100px; */
+      /* margin-top: 100px; 
       margin-left: 250px;
       margin-top: 25px;
       margin-bottom: 10px; 
@@ -96,3 +95,28 @@ footer {
       height:35%;
     }
   }
+
+  @media only screen and (max-width: 625px) {
+    .person{
+      /* margin-top: 100px; 
+      margin-left: 200px;
+      margin-top: 25px;
+      margin-bottom: 10px; 
+      width:35%;
+      height:35%;
+    }
+  }
+
+  
+  @media only screen and (max-width: 625px) {
+    .person{
+      /* margin-top: 100px; 
+      margin-left: 200px;
+      margin-top: 25px;
+      margin-bottom: 10px; 
+      width:35%;
+      height:35%;
+    }
+  }*/
+
+ 

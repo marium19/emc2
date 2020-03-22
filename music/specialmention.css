@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', serif;
+}
+
 .container{
     padding:45px;
     font-size: medium;
@@ -5,11 +14,6 @@
 li{
     display: inline-block;
     padding-right: 40px;
-}
-
-.carousel-inner img{
-    width: 100%;
-    max-height: 550px !important;
 }
 
 footer {
@@ -52,21 +56,48 @@ footer {
   background-color: rgb(83, 81, 81) !important;
 }
 
-.readmore{
-  color: rgb(93, 93, 241);
-}
-
 .navbar-toggle .icon-bar{
   color: blue;
   border-color: transparent;
 }
+.panel-heading, .panel-title
+{
+    background-color:rgb(61, 57, 57) !important;
+    font-size: 25px;
+     color: #fff !important;
+}
 
-/*image*/
-  .person{
-  display: inline-block;
-  border: 5px solid;
-  margin: 0 auto;
-  width: 35%;
-  height: 35%;
-    }
+p{
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0px;
+  margin-right: 0;
+}
 
+.welcome hr{
+    border:2px solid #b4b4b4;
+    width:65%;
+}
+.card{
+    
+    transition: 0.5s ease;
+    cursor:pointer;
+    width: auto;
+    margin: 35px;
+    margin-left: 50px;
+    
+}
+
+.card:hover{
+    -webkit-box-shadow: -1px 9px 40px 12px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 9px 40px 12px rgba(0,0,0,0.75);
+    box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    transform: scale(1.1);
+}
+
+.gif{
+    width: 200px;
+    height: 200px;
+    margin-top: 1em;
+}
