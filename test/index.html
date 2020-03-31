@@ -17,6 +17,36 @@
   width: 35%;
   height: 35%;
     }
+
+    .btn{
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+    }
+  .btn-lg{
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 50%;
+  }
+
+.tags:hover{
+    -webkit-box-shadow: -1px 9px 40px 12px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 9px 40px 12px rgba(0,0,0,0.75);
+    box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    transform: scale(1.1);
+}
+.person:hover{
+    -webkit-box-shadow: -1px 9px 40px 12px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 9px 40px 12px rgba(0,0,0,0.75);
+    box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    transform: scale(1.1);
+}
+
+
   </style>
 
 </head>
@@ -102,21 +132,37 @@
         </p>
         <hr>
           <br><br>
-        <h3>Message from the President</h3>
-        <p><em>A Sarthak</em></p>
         <div class="row">
-          <div class="mx-auto">
-            <a href="imagetest.html"> <img src="president.jpeg" class="img-circle img-responsive person" alt="president"></a>
+         <div class="col-lg-6"> 
+            <div class="row">
+              <div class="col-lg-6"> 
+                <h3>Message from the President</h3>
+                <p><em>A Sarthak</em></p>
+              </div>
+              <div class="col-lg-6"> 
+                <div class="mx-auto">
+              <a href="presmessg.html"> <img src="president.jpeg" class="img-circle img-responsive person" alt="president"></a>
+                </div>
+              </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-6"> 
+            <h3>Message from the Faculty Advisor</h3>
+            <p><em>Dr. V. Uma Maheshwar</em></p>
+            <hr>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-6">
+            <button class="btn btn-lg tags" onclick="document.location='imagetest.html'">Special Mentions</button>
           </div>
+          <div class="col-lg-6 col-md-6">
+            <button class="btn btn-lg tags">Events</button>
+            <a href="https://www.instagram.com/emccuceou/" class="fa fa-instagram">Follow</a><br>
+      
+            <a href="https://instagram.com"><i id="social-in" class="fa fa-instagram fa-3x social" aria-hidden="true"></i></a>
           </div>
-        <hr>
-        <br><br>
-        <br><br>
-        <h3>Message from the Faculty Advisor</h3>
-        <p><em>Dr. V. Uma Maheshwar</em></p>
-        <p>Osmania University has crossed a mile stone of 100 years and University College of Engineering, Osmania University, 90 years of their existence. Students joining University College of Engineering are multi talented and get admitted into the college after rigorous academic coaching regimes at Junior College level where they were given hardly any time to hone their non academic skills. 
-        <span>...</span></p><a href="presmessg.html" class="readmore">Read more</a>
-        <hr>
+        </div>
           
       </div>
 
@@ -127,7 +173,8 @@
         </a><br><br>-->
         <p>EMCC<br>
         <em>OU's very own music club!</em><br>
-          contact us: +9199999
+        <a href="https://www.instagram.com/emccuceou/" class="fab fab-instagram">emccuceou</a><br>
+        
         </p>
       </footer>
       

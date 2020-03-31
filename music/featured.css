@@ -66,3 +66,11 @@ footer {
   border: 1px solid black;
   margin: 4px;
 }
+
+.logo{
+  position: absolute;
+  width:40px; 
+  height:37px; 
+  top:10px;
+  overflow:hidden;
+}

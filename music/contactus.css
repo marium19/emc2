@@ -68,3 +68,11 @@ footer {
 .contactus {
   padding-left: 160px;
 }
+
+.logo{
+  position: absolute;
+  width:40px; 
+  height:37px; 
+  top:10px;
+  overflow:hidden;
+}
